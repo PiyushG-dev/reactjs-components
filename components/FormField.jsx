@@ -11,7 +11,7 @@ const FormField = ({
 }) => {
   return (
     <div className="flex flex-col gap-1 w-full">
-      <label className="font-Marcellus">
+      <label className="font-Marcellus text-sm">
         {label} <span className="text-red-500 text-sm">*</span>
       </label>
       <input
